@@ -1,26 +1,29 @@
 # Security Policy
-This is an independent, client-side engineering tool.
 
-If you discover a security issue, please open an Issue or contact the repository owner directly.
+This is an independent, client-side engineering tool intended for system integrators
+and engineering calculations.
 
-This project does not provide enterprise-grade security guarantees.
+The application runs entirely offline in the browser and does not process,
+store, or transmit sensitive data to external services.
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Only the latest release published in this repository is supported with
+security-related updates.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+Older versions are not maintained.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a potential security issue:
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+- Please open a GitHub Issue in this repository  
+  **or**
+- Contact the repository owner directly via GitHub
+
+As this is a single-maintainer project:
+- Response times are best-effort
+- No formal SLA is provided
+- Enterprise-grade security guarantees are not offered
+
+Thank you for helping improve the quality of this tool.
