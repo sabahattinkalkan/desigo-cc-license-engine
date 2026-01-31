@@ -1,0 +1,35 @@
+{
+  "rules": {
+    "multiDisciplineThreshold": 99, 
+    "maxTotalPointsForCompact": 2000,
+    "forcedStandardFeatures": [
+      "distributed_system",
+      "opc_server",
+      "assisted_treatment",
+      "pharma_export"
+    ],
+    "compactMaxLimits": {
+      "BA": 2000,
+      "FIRE": 1500,
+      "ELEC": 1500,
+      "SCADA": 500,
+      "METER": 30,
+      "SEC": 500,
+      "VALID": 2000
+    },
+    "compactBannedPackages": {
+      "BA": [5000, 10000, 30000, 100000],
+      "ELEC": [5000, 30000, 100000],
+      "VALID": [5000, 10000, 30000, 100000]
+    },
+    "upgradeLogic": {
+      "allowCompactToStandard": true,
+      "subscriptionGracePeriodDays": 0
+    }
+  },
+  "messages": {
+    "upgradeRequired": "Standard Feature Set required",
+    "capacityExceeded": "Compact technical limit exceeded",
+    "embeddedApplied": "Included with Feature Set"
+  }
+}

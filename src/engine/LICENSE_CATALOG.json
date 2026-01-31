@@ -1,0 +1,167 @@
+{
+    "meta": {
+        "vendor": "Siemens",
+        "product": "Desigo CC / Cerberus DMS"
+    },
+    "featureSets": {
+        "CCA-STD-FSET": {
+            "sku": "CCA-STD-FSET",
+            "partNumber": "P55802-Y114-A100",
+            "type": "STANDARD"
+        },
+        "CCA-CMPT-BA": {
+            "sku": "CCA-CMPT-BA",
+            "partNumber": "P55802-Y113-A100",
+            "type": "COMPACT"
+        }
+    },
+    "disciplines": {
+        "BA": {
+            "unit": "points"
+        },
+        "FIRE": {
+            "unit": "points"
+        },
+        "ELECTRICAL": {
+            "unit": "points"
+        },
+        "SCADA": {
+            "unit": "points"
+        },
+        "METER": {
+            "unit": "devices"
+        },
+        "CLIENTS": {
+            "unit": "count"
+        }
+    },
+    "embeddedCapacity": {
+        "CCA-CMPT-BA": {
+            "BA": 500,
+            "SCADA": 500,
+            "CLIENTS": 3
+        },
+        "CCA-STD-FSET": {
+            "CLIENTS": 1
+        }
+    },
+    "packages": {
+        "BA": [
+            {
+                "sku": "CCA-100-BA",
+                "partNumber": "P55802-Y157-A412",
+                "capacity": 100
+            },
+            {
+                "sku": "CCA-500-BA",
+                "partNumber": "P55802-Y157-A452",
+                "capacity": 500
+            },
+            {
+                "sku": "CCA-5000-BA",
+                "partNumber": "P55802-Y157-A453",
+                "capacity": 5000
+            },
+            {
+                "sku": "CCA-10000-BA",
+                "partNumber": "P55802-Y157-A414",
+                "capacity": 10000
+            },
+            {
+                "sku": "CCA-30000-BA",
+                "partNumber": "P55802-Y157-A434",
+                "capacity": 30000
+            },
+            {
+                "sku": "CCA-100000-BA",
+                "partNumber": "P55802-Y157-A415",
+                "capacity": 100000
+            }
+        ],
+        "FIRE": [
+            {
+                "sku": "CCA-100-FIRE",
+                "partNumber": "P55802-Y158-A412",
+                "capacity": 100
+            },
+            {
+                "sku": "CCA-500-FIRE",
+                "partNumber": "P55802-Y158-A452",
+                "capacity": 500
+            },
+            {
+                "sku": "CCA-5000-FIRE",
+                "partNumber": "P55802-Y158-A453",
+                "capacity": 5000
+            },
+            {
+                "sku": "CCA-10000-FIRE",
+                "partNumber": "P55802-Y158-A414",
+                "capacity": 10000
+            }
+        ],
+        "ELECTRICAL": [
+            {
+                "sku": "CCA-500-ELEC",
+                "partNumber": "P55802-Y156-A452",
+                "capacity": 500
+            },
+            {
+                "sku": "CCA-5000-ELEC",
+                "partNumber": "P55802-Y156-A453",
+                "capacity": 5000
+            },
+            {
+                "sku": "CCA-30000-ELEC",
+                "partNumber": "P55802-Y156-A434",
+                "capacity": 30000
+            },
+            {
+                "sku": "CCA-100000-ELEC",
+                "partNumber": "P55802-Y156-A415",
+                "capacity": 100000
+            }
+        ],
+        "SCADA": [
+            {
+                "sku": "CCA-100-SCADA",
+                "partNumber": "P55802-Y124-A412",
+                "capacity": 100
+            },
+            {
+                "sku": "CCA-500-SCADA",
+                "partNumber": "P55802-Y124-A452",
+                "capacity": 500
+            },
+            {
+                "sku": "CCA-5000-SCADA",
+                "partNumber": "P55802-Y124-A453",
+                "capacity": 5000
+            }
+        ],
+        "METER": [
+            {
+                "sku": "CCA-10-METER",
+                "partNumber": "P55802-Y152-A411",
+                "capacity": 10
+            },
+            {
+                "sku": "CCA-100-METER",
+                "partNumber": "P55802-Y152-A412",
+                "capacity": 100
+            }
+        ],
+        "CLIENTS": [
+            {
+                "sku": "CCA-1-CL",
+                "partNumber": "P55802-Y104-A412",
+                "capacity": 1
+            },
+            {
+                "sku": "CCA-MAX-CL",
+                "partNumber": "P55802-Y104-A460",
+                "capacity": 999999
+            }
+        ]
+    }
+}

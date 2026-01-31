@@ -1,0 +1,127 @@
+{
+  "disciplines": {
+    "BA": {
+      "name": "Building Automation",
+      "unit": "Points",
+      "packages": [
+        { "size": 100, "code": "CCA-100-BA", "partNumber": "P55802-Y157-A412" },
+        { "size": 500, "code": "CCA-500-BA", "partNumber": "P55802-Y157-A452" },
+        { "size": 5000, "code": "CCA-5000-BA", "partNumber": "P55802-Y157-A453" },
+        { "size": 10000, "code": "CCA-10000-BA", "partNumber": "P55802-Y157-A414" },
+        { "size": 30000, "code": "CCA-30000-BA", "partNumber": "P55802-Y157-A434" },
+        { "size": 100000, "code": "CCA-100000-BA", "partNumber": "P55802-Y157-A415" }
+      ]
+    },
+    "FIRE": {
+      "name": "Fire Safety",
+      "unit": "Points",
+      "packages": [
+        { "size": 100, "code": "CCA-100-FIRE", "partNumber": "P55802-Y158-A412" },
+        { "size": 500, "code": "CCA-500-FIRE", "partNumber": "P55802-Y158-A452" },
+        { "size": 5000, "code": "CCA-5000-FIRE", "partNumber": "P55802-Y158-A453" },
+        { "size": 10000, "code": "CCA-10000-FIRE", "partNumber": "P55802-Y158-A414" }
+      ]
+    },
+    "ELEC": {
+      "name": "Electrical",
+      "unit": "I/O Points",
+      "packages": [
+        { "size": 500, "code": "CCA-500-ELEC", "partNumber": "P55802-Y156-A452" },
+        { "size": 5000, "code": "CCA-5000-ELEC", "partNumber": "P55802-Y156-A453" },
+        { "size": 30000, "code": "CCA-30000-ELEC", "partNumber": "P55802-Y156-A434" },
+        { "size": 100000, "code": "CCA-100000-ELEC", "partNumber": "P55802-Y156-A415" }
+      ]
+    },
+    "SCADA": {
+      "name": "SCADA",
+      "unit": "Tags",
+      "packages": [
+        { "size": 100, "code": "CCA-100-SCADA", "partNumber": "P55802-Y124-A412" },
+        { "size": 500, "code": "CCA-500-SCADA", "partNumber": "P55802-Y124-A452" },
+        { "size": 5000, "code": "CCA-5000-SCADA", "partNumber": "P55802-Y124-A453" }
+      ]
+    },
+    "METER": {
+      "name": "Meters",
+      "unit": "Devices",
+      "packages": [
+        { "size": 10, "code": "CCA-10-METER", "partNumber": "P55802-Y152-A411" },
+        { "size": 100, "code": "CCA-100-METER", "partNumber": "P55802-Y152-A412" }
+      ]
+    },
+    "SEC": {
+      "name": "Security",
+      "unit": "Points",
+      "packages": [
+        { "size": 6, "code": "CCA-6-SEC", "partNumber": "P55802-Y102-A460" },
+        { "size": 100, "code": "CCA-100-SEC", "partNumber": "P55802-Y102-A412" },
+        { "size": 500, "code": "CCA-500-SEC", "partNumber": "P55802-Y102-A452" }
+      ]
+    },
+    "VALID": {
+      "name": "Validated Monitoring",
+      "unit": "Points",
+      "packages": [
+        { "size": 100, "code": "CCA-100-VALID", "partNumber": "P55802-Y154-A412" },
+        { "size": 500, "code": "CCA-500-VAL", "partNumber": "P55802-Y154-A452" },
+        { "size": 5000, "code": "CCA-5000-VAL", "partNumber": "P55802-Y154-A453" },
+        { "size": 10000, "code": "CCA-10000-VAL", "partNumber": "P55802-Y154-A414" },
+        { "size": 30000, "code": "CCA-30000-VAL", "partNumber": "P55802-Y154-A434" },
+        { "size": 100000, "code": "CCA-100000-VAL", "partNumber": "P55802-Y154-A415" }
+      ]
+    }
+  },
+  "featureSets": {
+    "COMPACT_BA": {
+      "name": "Compact for Building Automation",
+      "code": "CCA-CMPT-BA",
+      "partNumber": "P55802-Y113-A100",
+      "embeddedPoints": {
+        "BA": 500,
+        "SCADA": 500
+      },
+      "maxDisciplines": 1,
+      "allowAdvancedFeatures": false
+    },
+    "COMPACT_DMS": {
+      "name": "Compact Danger Management",
+      "code": "CCA-CMPT-DMS",
+      "partNumber": "P55802-Y110-A100",
+      "embeddedPoints": {
+        "FIRE": 500,
+        "SEC": 50
+      },
+      "maxDisciplines": 1,
+      "allowAdvancedFeatures": false
+    },
+    "COMPACT_ELEC": {
+      "name": "Compact Electrical",
+      "code": "CCA-CMPT-ELEC",
+      "partNumber": "P55802-Y108-A100",
+      "embeddedPoints": {
+        "ELEC": 500,
+        "SCADA": 100
+      },
+      "maxDisciplines": 1,
+      "allowAdvancedFeatures": false
+    },
+    "COMPACT_VM": {
+      "name": "Compact Validated Monitoring",
+      "code": "CCA-CMPT-VM",
+      "partNumber": "P55802-Y121-A100",
+      "embeddedPoints": {
+        "VALID": 500
+      },
+      "maxDisciplines": 1,
+      "allowAdvancedFeatures": false
+    },
+    "STANDARD": {
+      "name": "Standard Feature Set",
+      "code": "CCA-STD-FSET",
+      "partNumber": "P55802-Y114-A100",
+      "embeddedPoints": {},
+      "maxDisciplines": 999,
+      "allowAdvancedFeatures": true
+    }
+  }
+}

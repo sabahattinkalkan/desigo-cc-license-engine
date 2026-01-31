@@ -1,0 +1,5 @@
+{
+  "name": "Industrial License Manager (ILM) Core",
+  "description": "A dynamic, rule-based license calculation engine for BMS/SCADA systems inspired by Siemens Desigo CC.",
+  "requestFramePermissions": []
+}
