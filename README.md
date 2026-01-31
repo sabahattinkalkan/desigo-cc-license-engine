@@ -139,6 +139,7 @@ The engine will automatically select the correct feature set and licenses.
 ## Documentation
 
 - [Installation Guide](INSTALLATION.md)
+- [Usage Guide](USAGE.md)
 
 ---
 
