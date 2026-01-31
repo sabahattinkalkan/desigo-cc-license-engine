@@ -1,5 +1,4 @@
 # Desigo CC Vendor-Grade License Engine
-> **[🚀 Live Demo](https://sabahattinkalkan.github.io/desigo-cc-license-engine/)**
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here-2ea44f?style=for-the-badge)](https://sabahattinkalkan.github.io/desigo-cc-license-engine/)
 
