@@ -124,33 +124,6 @@ This separation is a deliberate design choice.
 
 ---
 
-## Email Output
-
-Emails are intentionally:
-
-- Short
-- Human-readable
-- Free of internal engine codes
-- Suitable for sales and customer communication
-
-They summarize:
-
-- Base license
-- Additional licenses (if any)
-- Final decision
-
----
-
-## Excel Output
-
-Excel exports are designed as **formal engineering deliverables**:
-
-- Structured sheets
-- Clear separation of summary, requirements, and BOM
-- Ready for attachment to offers or internal documentation
-
----
-
 ## Usage
 
 ```bash
@@ -160,6 +133,12 @@ npm run dev
 
 Open the application in your browser and enter project requirements.  
 The engine will automatically select the correct feature set and licenses.
+
+---
+
+## Documentation
+
+- [Installation Guide](INSTALLATION.md)
 
 ---
 
